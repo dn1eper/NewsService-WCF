@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c8d4b5f3-532f-4a7b-8249-8524275b100e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/news" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NewsService.wsdl" MetadataType="Wsdl" ID="29e8470c-7401-4001-beb9-201895d7e09d" SourceId="1" SourceUrl="http://localhost:8080/news?wsdl" />
+    <MetadataFile FileName="news.disco" MetadataType="Disco" ID="38fdc16f-434b-4ba4-a97a-bfcd8b824712" SourceId="1" SourceUrl="http://localhost:8080/news?disco" />
+    <MetadataFile FileName="news.xsd" MetadataType="Schema" ID="841264e2-11f2-4fe8-8357-90b4217c5753" SourceId="1" SourceUrl="http://localhost:8080/news?xsd=xsd0" />
+    <MetadataFile FileName="news1.xsd" MetadataType="Schema" ID="32b22684-6e3b-4af0-b91d-407c907e6d83" SourceId="1" SourceUrl="http://localhost:8080/news?xsd=xsd2" />
+    <MetadataFile FileName="news2.xsd" MetadataType="Schema" ID="8ba4f9bc-b30a-446e-9c7e-8bba6436c397" SourceId="1" SourceUrl="http://localhost:8080/news?xsd=xsd3" />
+    <MetadataFile FileName="news3.xsd" MetadataType="Schema" ID="b5f3e446-0843-4bb8-b841-6db43590a2cb" SourceId="1" SourceUrl="http://localhost:8080/news?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
